@@ -39,7 +39,7 @@ function verificarChute(){
     }else{
         palavratentativa = 'tentativas';
     }
-
+    
     //Tratativa se o chute foi certo ou não.
     if(chute.value == numeroAleatorio){
         exibirTextoNaTela('h1','Parabéns!');
