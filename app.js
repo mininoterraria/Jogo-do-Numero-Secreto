@@ -31,6 +31,7 @@ function verificarChute(){
         return;
     }
 
+    //Feijao com arroz.
     //Tratativa da palavra tentativa ao acertar o número secreto.
     let palavratentativa = '';
 
