@@ -14,7 +14,7 @@ function menuPrincipal(){
     exibirTextoNaTela('p','Escolha um número entre 1 a 10.');
 }
 
-menuPrincipal();
+menuPrincipal(); //Chamada que exibe o menu principal do jogo.
 
 //Função que verifica o chute inputado pelo usuário.
 function verificarChute(){
@@ -73,7 +73,7 @@ function gerarNumeroAleatorio(){
     if(numerosSorteados.includes(numeroGerado)){
         return gerarNumeroAleatorio();
     }
-       
+    
     numerosSorteados.push(numeroGerado);
     return numeroGerado;
     
